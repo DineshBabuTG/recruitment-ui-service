@@ -1,0 +1,86 @@
+2021-10-10 12:54:57,834 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-10 12:54:57,835 - werkzeug - INFO -  * Running on http://10.104.41.156:5000/ (Press CTRL+C to quit)
+2021-10-10 12:55:56,594 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 12:55:56,594 - webapp - INFO - False
+2021-10-10 12:55:56,610 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:55:56] "POST /addcandidate HTTP/1.1" 200 -
+2021-10-10 12:56:52,582 - webapp - INFO - Candidate Page Loaded Successfully
+2021-10-10 12:56:52,583 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:56:52] "GET /candidate HTTP/1.1" 200 -
+2021-10-10 12:56:53,627 - candidateuiservice - INFO - In Get All Candidate method
+2021-10-10 12:56:53,731 - candidateuiservice - INFO - GET Candidates: b'[{"candidateid": 87578, "name": "Dina", "address": "Bangalore", "qualification": "MCA", "jobskill": "Automation", "yearsofexperience": "11"}, {"candidateid": 437841, "name": "Rahul", "address": "WesBengal", "qualification": "BE ECE", "jobskill": "Devops", "yearsofexperience": "6"}, {"candidateid": 338755, "name": "Somu", "address": "Madurai", "qualification": "BSC", "jobskill": "Testing", "yearsofexperience": "3"}, {"candidateid": 197685, "name": "Rahul", "address": "WestBengal", "qualification": "BE EEE", "jobskill": "Developer", "yearsofexperience": "5"}, {"candidateid": 474061, "name": "Balaji", "address": "Avaniyapuram", "qualification": "BE ECE", "jobskill": "Automation Engineer", "yearsofexperience": "6"}, {"candidateid": 576205, "name": "Ramu", "address": "Chennai", "qualification": "BE ECE", "jobskill": "SRE", "yearsofexperience": "3"}]'
+2021-10-10 12:56:53,734 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:56:53] "GET /listcandidates HTTP/1.1" 200 -
+2021-10-10 12:56:57,666 - webapp - INFO - Customer Page Loaded Successfully
+2021-10-10 12:56:57,668 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:56:57] "GET /customer HTTP/1.1" 200 -
+2021-10-10 12:57:00,129 - webapp - INFO - Customer Form Loaded Successfully
+2021-10-10 12:57:00,129 - webapp - INFO - False
+2021-10-10 12:57:00,134 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:57:00] "GET /addcustomer HTTP/1.1" 200 -
+2021-10-10 12:57:01,669 - webapp - INFO - Candidate Page Loaded Successfully
+2021-10-10 12:57:01,670 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:57:01] "GET /candidate HTTP/1.1" 200 -
+2021-10-10 12:57:02,450 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 12:57:02,450 - webapp - INFO - False
+2021-10-10 12:57:02,451 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:57:02] "GET /addcandidate HTTP/1.1" 200 -
+2021-10-10 12:58:08,243 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 12:58:08,243 - webapp - INFO - True
+2021-10-10 12:58:08,244 - webapp - INFO - Add Candidate button clicked
+2021-10-10 12:58:08,244 - webapp - INFO - Name is: Sundar
+2021-10-10 12:58:08,244 - webapp - INFO - Uploaded Resume filaname is: Sundar Resume.pdf
+2021-10-10 12:58:08,245 - candidateuiservice - INFO - In Save Candidate method
+2021-10-10 12:58:08,245 - candidateuiservice - INFO - name Sundar address Hyderabad qualification BTech jobskill Devops Engineer yearsofexperience 4
+2021-10-10 12:58:08,245 - candidateuiservice - INFO - Going to trigger Add Candidate API from web app
+2021-10-10 12:58:08,245 - candidateuiservice - INFO - Resume file path is uploaded-files//Sundar Resume.pdf
+2021-10-10 12:58:08,353 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:58:08] "POST /addcandidate HTTP/1.1" 200 -
+2021-10-10 12:58:52,051 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 12:58:52,051 - webapp - INFO - False
+2021-10-10 12:58:52,052 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 12:58:52] "GET /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:01:16,694 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 13:01:16,694 - webapp - INFO - True
+2021-10-10 13:01:16,695 - webapp - INFO - Add Candidate button clicked
+2021-10-10 13:01:16,695 - webapp - INFO - Name is: Sundar
+2021-10-10 13:01:16,695 - webapp - INFO - Uploaded Resume filaname is: Sundar Resume.pdf
+2021-10-10 13:01:16,696 - candidateuiservice - INFO - In Save Candidate method
+2021-10-10 13:01:16,696 - candidateuiservice - INFO - name Sundar address Hyderabad qualification BTech jobskill Devops Engineer yearsofexperience 4
+2021-10-10 13:01:16,696 - candidateuiservice - INFO - Going to trigger Add Candidate API from web app
+2021-10-10 13:01:16,696 - candidateuiservice - INFO - Resume file path is uploaded-files//Sundar Resume.pdf
+2021-10-10 13:01:18,251 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:01:18] "POST /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:10:49,344 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-10 13:10:49,344 - werkzeug - INFO -  * Running on http://10.104.41.156:5000/ (Press CTRL+C to quit)
+2021-10-10 13:10:59,394 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 13:10:59,394 - webapp - INFO - False
+2021-10-10 13:10:59,408 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:10:59] "GET /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:11:00,700 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 13:11:00,701 - webapp - INFO - True
+2021-10-10 13:11:00,701 - webapp - INFO - Add Candidate button clicked
+2021-10-10 13:11:00,701 - webapp - INFO - Name is: Sundar
+2021-10-10 13:11:00,701 - webapp - INFO - Uploaded Resume filaname is: Sundar Resume.pdf
+2021-10-10 13:11:00,702 - candidateuiservice - INFO - In Save Candidate method
+2021-10-10 13:11:00,702 - candidateuiservice - INFO - name Sundar address Hyderabad qualification BTech jobskill Devops Engineer yearsofexperience 4
+2021-10-10 13:11:00,702 - candidateuiservice - INFO - Going to trigger Add Candidate API from web app
+2021-10-10 13:11:00,702 - candidateuiservice - INFO - Resume file path is uploaded-files//Sundar Resume.pdf
+2021-10-10 13:11:00,702 - candidateuiservice - INFO - Resume file name is /Sundar Resume.pdf
+2021-10-10 13:11:01,346 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:11:01] "POST /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:12:20,025 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 13:12:20,025 - webapp - INFO - False
+2021-10-10 13:12:20,025 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:12:20] "GET /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:12:25,768 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-10 13:12:25,769 - werkzeug - INFO -  * Running on http://10.104.41.156:5000/ (Press CTRL+C to quit)
+2021-10-10 13:13:07,426 - webapp - INFO - Candidate Form Loaded Successfully
+2021-10-10 13:13:07,427 - webapp - INFO - True
+2021-10-10 13:13:07,427 - webapp - INFO - Add Candidate button clicked
+2021-10-10 13:13:07,427 - webapp - INFO - Name is: Sundar
+2021-10-10 13:13:07,427 - webapp - INFO - Uploaded Resume file name is: Sundar Resume.pdf
+2021-10-10 13:13:07,428 - candidateuiservice - INFO - In Save Candidate method
+2021-10-10 13:13:07,428 - candidateuiservice - INFO - name Sundar address Hyderabad qualification BTech jobskill Devops Engineer yearsofexperience 4
+2021-10-10 13:13:07,428 - candidateuiservice - INFO - Going to trigger Add Candidate API from web app
+2021-10-10 13:13:07,428 - candidateuiservice - INFO - Resume file path is uploaded-files/Sundar Resume.pdf
+2021-10-10 13:13:07,428 - candidateuiservice - INFO - Resume file name is Sundar Resume.pdf
+2021-10-10 13:13:08,828 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:13:08] "POST /addcandidate HTTP/1.1" 200 -
+2021-10-10 13:13:38,269 - webapp - INFO - Candidate Page Loaded Successfully
+2021-10-10 13:13:38,272 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:13:38] "GET /candidate HTTP/1.1" 200 -
+2021-10-10 13:13:40,657 - candidateuiservice - INFO - In Get All Candidate method
+2021-10-10 13:13:40,689 - candidateuiservice - INFO - GET Candidates: b'[{"candidateid": 87578, "name": "Dina", "address": "Bangalore", "qualification": "MCA", "jobskill": "Automation", "yearsofexperience": "11"}, {"candidateid": 437841, "name": "Rahul", "address": "WesBengal", "qualification": "BE ECE", "jobskill": "Devops", "yearsofexperience": "6"}, {"candidateid": 338755, "name": "Somu", "address": "Madurai", "qualification": "BSC", "jobskill": "Testing", "yearsofexperience": "3"}, {"candidateid": 197685, "name": "Rahul", "address": "WestBengal", "qualification": "BE EEE", "jobskill": "Developer", "yearsofexperience": "5"}, {"candidateid": 474061, "name": "Balaji", "address": "Avaniyapuram", "qualification": "BE ECE", "jobskill": "Automation Engineer", "yearsofexperience": "6"}, {"candidateid": 576205, "name": "Ramu", "address": "Chennai", "qualification": "BE ECE", "jobskill": "SRE", "yearsofexperience": "3"}, {"candidateid": 501886, "name": "Sundar", "address": "Hyderabad", "qualification": "BTech", "jobskill": "Devops Engineer", "yearsofexperience": "4"}]'
+2021-10-10 13:13:40,692 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2021 13:13:40] "GET /listcandidates HTTP/1.1" 200 -
+2021-10-10 13:42:08,131 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-10 13:42:08,132 - werkzeug - INFO -  * Running on http://10.104.41.156:5000/ (Press CTRL+C to quit)

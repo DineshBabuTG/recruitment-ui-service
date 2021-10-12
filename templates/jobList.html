@@ -1,0 +1,27 @@
+{% extends "candidate.html" %}
+
+{% block content %}
+
+<h2>Dina Recruting Agency - Job List</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>ClientName</th>
+	  <th>JobProfile</th>
+	  <th>JobRequirements</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for job in allJobsList %}
+      <tr>
+        <td>{{loop.index}}</td>
+        <td>{{job.clientname}}</td>
+		<td>{{job.jobprofile}}</td>
+		<td>{{job.jobrequirements}}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

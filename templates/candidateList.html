@@ -1,0 +1,31 @@
+{% extends "candidate.html" %}
+
+{% block content %}
+
+<h2>Dina Recruting Agency - Candidate List</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+	  <th>Address</th>
+	  <th>Qualification</th>
+      <th>JobSkill</th>
+      <th>YearsOfExperience</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for candidate in allCandidatesList %}
+      <tr>
+        <td>{{loop.index}}</td>
+        <td>{{candidate.name}}</td>
+		<td>{{candidate.address}}</td>
+		<td>{{candidate.qualification}}</td>
+        <td>{{candidate.jobskill}}</td>
+        <td>{{candidate.yearsofexperience}}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

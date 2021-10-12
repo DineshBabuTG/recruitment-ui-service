@@ -1,0 +1,38 @@
+{% extends "candidate.html" %}
+
+{% block content %}
+
+<h2>Add Candidate</h2>
+
+<div class="row">
+<div class="col-md-6">
+<form method="POST" class="form" enctype = "multipart/form-data">
+  {{ form.csrf_token }}
+  {{ render_input(form.name) }}
+  {{ render_input(form.address) }}
+  {{ render_input(form.qualification) }}
+  {{ render_input(form.jobskill) }}
+  {{ render_input(form.yearsofexperience) }}
+  {{ render_input(form.uploadresume) }}
+
+  <button type="submit" class="btn btn-primary">Add</button>
+</form>
+</div>
+</div>
+
+{% endblock %}
+
+{% macro render_input(input) %}
+  <div class="form-group">
+    {{input.label}}
+    {{input(class_="form-control")}}
+
+    {% if input.errors %}
+      <ul class="help-block list-unstyled alert alert-danger">
+        {% for error in input.errors %}
+          <li>{{ error }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endmacro %}

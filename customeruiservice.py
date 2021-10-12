@@ -10,7 +10,7 @@ import requests
 
 logger = logging.getLogger('customeruiservice')
 
-apphostname = os.environ['apphostname']
+apphostname = os.environ['customerapphostname']
 print("App hostname is " + apphostname)
 logger.info("App hostname is " + apphostname)
 

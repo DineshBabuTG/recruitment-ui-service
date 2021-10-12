@@ -11,7 +11,7 @@ import requests
 # create logger
 logger = logging.getLogger('jobuiservice')
 
-apphostname = os.environ['apphostname']
+apphostname = os.environ['jobapphostname']
 print("App hostname is " + apphostname)
 logger.info("App hostname is " + apphostname)
 

@@ -11,4 +11,4 @@ COPY . /app
 EXPOSE 5000
 ENTRYPOINT [ "python" ]
 
-CMD [ "webapp.py" ]
+CMD [ "application.py" ]
